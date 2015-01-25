@@ -96,3 +96,7 @@ Id: 9b73bc90-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Prison Sex
 ```
 
 - Press CTRL + C to stop the route
+
+# The route
+
+This route executes a select all on songs table in the simplex keyspace (only 3 songs are store in Cassandra instance at this point), then it executes an insert of one new song and it executes another select all on the same table of same keyspace logging the result.
