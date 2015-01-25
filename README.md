@@ -2,7 +2,7 @@
 
 # Setting up the environment and running
 
-This is a simple example of the Camel-cassandra component.
+This is a simple example of a Camel route based on the Camel-cassandra component (https://github.com/oscerd/camel-cassandra) I've developed.
 
 To run this example you need to:
 
