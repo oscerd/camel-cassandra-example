@@ -14,7 +14,7 @@ import org.apache.camel.builder.RouteBuilder;
 
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
-import com.github.oscerd.camel.component.cassandra.CassandraConstants;
+import com.github.oscerd.component.cassandra.CassandraConstants;
 
 /**
  * Usage example of Camel-cassandra Component
