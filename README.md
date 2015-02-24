@@ -64,18 +64,19 @@ mvn clean compile exec:java
 [l-1) thread #0 - timer://timer] FrameCompressor                WARN  Cannot find Snappy class, you should make sure the Snappy library is in the classpath if you intend to use it. Snappy compression will not be available for the protocol.
 [l-1) thread #0 - timer://timer] FrameCompressor                WARN  Cannot find LZ4 class, you should make sure the LZ4 library is in the classpath if you intend to use it. LZ4 compression will not be available for the protocol.
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
-[Cassandra Java Driver worker-0] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
-Id: 9b732050-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Intolerance
-Id: 9b7458d0-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Sober
-Id: 9b73bc90-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Prison Sex
+[l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
+Id: b5057a20-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Intolerance
+Id: b508d580-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Prison Sex
+Id: b50a0e00-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Sober
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
-[Cassandra Java Driver worker-0] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
+[l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
-[Cassandra Java Driver worker-0] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
-Id: 9b732050-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Intolerance
-Id: 9b7458d0-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Sober
-Id: f619ba7f-668f-4cb5-9f6e-613a274f176f - Album: Undertow - Title: Bottom
-Id: 9b73bc90-a4a5-11e4-b41f-e15e042f3dd3 - Album: Undertow - Title: Prison Sex
+[l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
+Id: b5057a20-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Intolerance
+Id: 9e977599-414e-462e-bcbb-9e37caae0e54 - Album: Undertow - Title: Bottom
+Id: b508d580-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Prison Sex
+Id: b50a0e00-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Sober
+
 
 ```
 
