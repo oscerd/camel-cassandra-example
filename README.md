@@ -52,31 +52,29 @@ mvn clean compile exec:java
 
 ```shell
 
-[andra.CamelCassandraApp.main()] MainSupport                    INFO  Apache Camel 2.14.1 starting
-[andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Apache Camel 2.14.1 (CamelContext: camel-1) is starting
+[andra.CamelCassandraApp.main()] MainSupport                    INFO  Apache Camel 2.15.2 starting
+[andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Apache Camel 2.15.2 (CamelContext: camel-1) is starting
 [andra.CamelCassandraApp.main()] ManagedManagementStrategy      INFO  JMX is enabled
-[andra.CamelCassandraApp.main()] DefaultTypeConverter           INFO  Loaded 178 type converters
+[andra.CamelCassandraApp.main()] DefaultTypeConverter           INFO  Loaded 182 type converters
 [andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
 [andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
 [andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Route: route1 started and consuming from: Endpoint[timer://timer?fixedRate=true&period=10000&repeatCount=1]
 [andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Total 1 routes, of which 1 is started.
-[andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Apache Camel 2.14.1 (CamelContext: camel-1) started in 0.325 seconds
-[l-1) thread #0 - timer://timer] FrameCompressor                WARN  Cannot find Snappy class, you should make sure the Snappy library is in the classpath if you intend to use it. Snappy compression will not be available for the protocol.
-[l-1) thread #0 - timer://timer] FrameCompressor                WARN  Cannot find LZ4 class, you should make sure the LZ4 library is in the classpath if you intend to use it. LZ4 compression will not be available for the protocol.
+[andra.CamelCassandraApp.main()] DefaultCamelContext            INFO  Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.325 seconds
+[l-1) thread #0 - timer://timer] NettyUtil                      INFO  Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
 [l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
-Id: b5057a20-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Intolerance
-Id: b508d580-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Prison Sex
-Id: b50a0e00-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Sober
+Id: a267fa40-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Prison Sex
+Id: a26932c0-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Sober
+Id: a2608030-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Intolerance
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
 [l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
 [l-1) thread #0 - timer://timer] DCAwareRoundRobinPolicy        INFO  Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
 [l-1) thread #0 - timer://timer] Cluster                        INFO  New Cassandra host /127.0.0.1:9042 added
-Id: b5057a20-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Intolerance
-Id: 9e977599-414e-462e-bcbb-9e37caae0e54 - Album: Undertow - Title: Bottom
-Id: b508d580-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Prison Sex
-Id: b50a0e00-bc53-11e4-9e8a-3b62f3b0ea18 - Album: Undertow - Title: Sober
-
+Id: 8d8e043a-739f-40c0-b955-ec70ca10bbab - Album: Undertow - Title: Bottom
+Id: a267fa40-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Prison Sex
+Id: a26932c0-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Sober
+Id: a2608030-0c6d-11e5-83a7-0d0908f21338 - Album: Undertow - Title: Intolerance
 
 ```
 
