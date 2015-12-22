@@ -6,7 +6,7 @@ This is a simple example of a Camel route based on the Camel-cassandra component
 
 To run this example you need to:
 
-- Install Apache Cassandra from http://cassandra.apache.org/download/ . In my configuration I've used Apache Cassandra version 2.1.2.
+- Install Apache Cassandra from http://cassandra.apache.org/download/ . In my configuration I've used Apache Cassandra version 2.2.4.
 
 - Run Apache Cassandra by executing 
 
